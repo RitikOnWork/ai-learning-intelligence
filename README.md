@@ -89,6 +89,7 @@ API Output (JSON)
 ---
 
 ## 📁 Project Structure
+```
 ai-learning-intelligence/
 │
 ├── app/
@@ -113,7 +114,7 @@ ai-learning-intelligence/
 ├── requirements.txt
 ├── runtime.txt
 └── README.md
-
+```
 
 ---
 
@@ -124,8 +125,11 @@ ai-learning-intelligence/
 git clone https://github.com/RitikOnWork/ai-learning-intelligence.git
 cd ai-learning-intelligence
 
+```
+```bash
 pip install -r requirements.txt
 python -m uvicorn app.main:app --reload
+```
 
 Access the Tool
 API: http://127.0.0.1:8000
@@ -134,12 +138,13 @@ Swagger Docs: http://127.0.0.1:8000/docs
 🌐 Live Deployment
 
 Deployed API URL:
-https://learnsight-ai.onrender.com
+* URL: [Learnsight AI](https://learnsight-ai.onrender.com)
 
 Swagger UI:
-https://learnsight-ai.onrender.com/docs
+* URL: [Learnsight AI](https://learnsight-ai.onrender.com/docs)
 
 ### 📥 Sample Input
+```bash
 {
   "student_id": "S101",
   "course_id": "C-AI-01",
@@ -147,8 +152,9 @@ https://learnsight-ai.onrender.com/docs
   "time_spent": 50,
   "score": 70
 }
-
+```
 ### 📤 Sample Output
+```bash
 {
   "student_id": "S101",
   "course_id": "C-AI-01",
@@ -163,7 +169,16 @@ https://learnsight-ai.onrender.com/docs
   },
   "insight": "Student is progressing well with no immediate risks."
 }
+```
 
+## 🧑‍💻 Author
 
+**Ritik Raj**
+AI/ML Enthusiast | Python Developer | Problem Solver
 
-## 🏗️ System Architecture
+* GitHub: [RitikOnWork](https://github.com/RitikOnWork)
+
+---
+
+### ⭐ If you find this repository helpful, consider giving it a star!
+
